@@ -7,8 +7,8 @@
 }
 
 :root {
-    --rojo-oscuro: #8b0000;
-    --rojo-claro: #ff3333;
+    --verde-principal: #8BE041;
+    --verde-oscuro: #69B820;
     --negro: #000000;
     --blanco: #ffffff;
 }
@@ -72,7 +72,7 @@ header {
 }
 
 .menu-btn {
-    background-color: var(--rojo-oscuro);
+    background-color: var(--verde-oscuro);
     color: var(--blanco);
     border: none;
     padding: 14px 35px;
@@ -87,8 +87,8 @@ header {
 /* Efecto al pasar el cursor o presionar */
 .menu-btn:hover, .menu-btn:focus {
     transform: scale(1.1);
-    background-color: var(--rojo-claro);
-    box-shadow: 0 0 20px var(--rojo-claro);
+    background-color: var(--verde-principal);
+    box-shadow: 0 0 20px var(--verde-principal);
 }
 
 /* IMAGEN 1 (LADO A LADO) */
@@ -182,7 +182,7 @@ header {
     align-items: center;
     justify-content: center;
     overflow-y: auto;
-    border: 2px solid var(--rojo-oscuro);
+    border: 2px solid var(--verde-oscuro);
 }
 
 .producto-info {
@@ -199,7 +199,7 @@ header {
 }
 
 .btn-conocer-mas {
-    background-color: var(--rojo-oscuro);
+    background-color: var(--verde-oscuro);
     color: var(--blanco);
     text-decoration: none;
     font-weight: bold;
@@ -212,8 +212,8 @@ header {
 
 .btn-conocer-mas:hover {
     transform: scale(1.1);
-    background-color: var(--rojo-claro);
-    box-shadow: 0 0 15px var(--rojo-claro);
+    background-color: var(--verde-principal);
+    box-shadow: 0 0 15px var(--verde-principal);
 }
 
 /* SECCIÓN VIDEO (DE LADO A LADO) */
@@ -255,7 +255,7 @@ header {
 }
 
 .catalogo-btn {
-    background-color: var(--rojo-oscuro);
+    background-color: var(--verde-oscuro);
     color: var(--blanco);
     text-decoration: none;
     font-weight: bold;
@@ -270,8 +270,8 @@ header {
 
 .catalogo-btn:hover {
     transform: scale(1.05);
-    background-color: var(--rojo-claro);
-    box-shadow: 0 0 15px var(--rojo-claro);
+    background-color: var(--verde-principal);
+    box-shadow: 0 0 15px var(--verde-principal);
 }
 
 .catalogo-aviso {
@@ -303,7 +303,7 @@ header {
     object-fit: contain;
 }
 
-/* SECCIÓN CONTACTOS (CUADROS EN ROJO) */
+/* SECCIÓN CONTACTOS */
 .contacto-section {
     max-width: 900px;
     margin: 50px auto 60px auto;
@@ -330,14 +330,14 @@ header {
 }
 
 .contacto-box {
-    background-color: var(--rojo-oscuro);
+    background-color: var(--verde-oscuro);
     color: var(--blanco);
     padding: 20px;
     text-align: center;
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
-    border: 2px solid var(--rojo-claro);
+    border: 2px solid var(--verde-principal);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     display: block;
@@ -346,7 +346,7 @@ header {
 
 .contacto-box:hover {
     transform: scale(1.02);
-    background-color: var(--rojo-claro);
+    background-color: var(--verde-principal);
 }
 
 /* SECCIÓN QUIÉNES SOMOS */
@@ -360,7 +360,7 @@ header {
 .quienes-somos-titulo {
     font-size: 32px;
     margin-bottom: 20px;
-    color: var(--rojo-oscuro);
+    color: var(--verde-oscuro);
 }
 
 .quienes-somos-texto {
